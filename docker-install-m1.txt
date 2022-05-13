@@ -1,0 +1,3 @@
+docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=Madeofdust1" -e "MSSQL_PID=Developer" -e "MSSQL_USER=SA" -p 1433:1433 -d --name=Northwind mcr.microsoft.com/azure-sql-edge
+
+https://medium.com/geekculture/docker-express-running-a-local-sql-server-on-your-m1-mac-8bbc22c49dc9
